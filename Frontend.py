@@ -5,7 +5,7 @@ def clear_list():
     list1.delete(0, END)
 
 window = Tk()
-
+window.title("Book Store")
 #=============================Label=========================
 l1=Label(window,text="Title")
 l1.grid(row=0,column=0)
